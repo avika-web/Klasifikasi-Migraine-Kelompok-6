@@ -23,7 +23,7 @@ with st.form("migraine_form"):
 
     st.markdown("**Umur**")
     st.caption("Menunjukkan usia pasien yang mengalami migrain.")
-    age = st.number_input("umur_input", min_value=0, max_value=120, value=25)
+    age = st.number_input(" ", min_value=0, max_value=120, value=25)
 
     st.markdown("**Durasi Migrain**")
     st.caption("1 = Pendek <4 jam, 2 = Sedang 4–24 jam, 3 = Panjang >24 jam")
