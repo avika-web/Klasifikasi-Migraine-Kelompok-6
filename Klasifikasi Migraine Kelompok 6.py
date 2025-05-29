@@ -6,7 +6,7 @@ st.set_page_config(page_title="Klasifikasi Migrain", layout="wide")
 st.title("Aplikasi Klasifikasi Jenis Migrain")
 
 st.markdown("""
-Aplikasi ini memungkinkan Anda mengisi data pasien secara manual untuk mengetahui jenis migrain menggunakan algoritma **Naive Bayes**.
+Web ini memungkinkan Anda untuk mengetahui jenis migrain sesuai dengann kondisi yang ada alami.
 """)
 
 data = pd.read_csv("data_migraine.csv")
